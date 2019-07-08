@@ -1,0 +1,249 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Archivo', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/*landing page*/
+
+body{
+	background-color: lightgrey;
+}
+
+#jumbo-land{
+	height: 100vh;
+	padding-top: 5%;
+	background-image: url(https://wallpapercave.com/wp/kjut28e.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	border-radius: 0; 
+}
+
+.jumbotron h1{
+	color: white;
+	background-color: #333;
+	border-radius: 10px;	
+}
+
+.jumbotron p{
+	color: white;
+}
+
+.jumbotron hr {
+	background-color: #fff;
+}
+
+.jumbotron button {
+	border-color: white;
+	width: 150px;
+}
+
+.btn a {
+	color: white;
+}
+
+.jumbotron h1:hover,h2:hover,p:hover {
+	color: red;
+}
+
+.jumbotron button:hover{
+	background-color: red;
+}
+
+
+/*Home*/
+
+#navbar{
+	background-color: #333;
+}
+
+.nav{
+	background-color: #333;
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	padding: 30px;
+}
+
+.main {
+	margin-left: 200px;
+}
+
+.side-select{
+	list-style: none;
+	background-color: black;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 35px;
+	border-radius: 15px;
+	border: 2px solid white;
+	width: 150px;
+}
+
+.side-info {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+}
+
+.nav a:hover{
+	color: lightgrey;
+}
+
+.jor{
+	border-radius: 20px;
+}
+
+.card-title{
+	font-weight: bold;
+}
+
+.card{
+	border: 0;
+}
+
+
+/*About*/
+#jumbotron-about{
+	padding: 0;
+	background-color: #333;
+	height: 92vh;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#landing-about{
+	color: #f2f2f2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: "write";
+}
+
+.mj23{
+	height: 92vh;
+}
+
+#mission{
+	height: 100%;
+	background-color: #333;
+	color: #fff;
+}
+
+#vision{
+	height: 100%
+	background-color: #fff;
+	color: #333;
+}
+
+.about-tags{
+	font-weight: bold;
+}
+/*Contacts*/
+
+#gmap{
+	width: 500px;
+	display: block;
+	border: 2px;
+	height: 70vh;
+	border-radius: 10px;
+}
+
+/*tablet style*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	body{
+		background-color: lightgrey;
+	}
+	.nav{
+		display: none;
+	}
+	.main{
+		margin-left: 0;
+	}
+	#gmap{
+	width: 350px;
+	display: block;
+	border: none;
+	height: 40vh;
+	border-radius: 10px;
+	}
+	.last-page{
+		height: 92vh;
+	}
+}
+
+/*mobile*/
+@media only screen and (max-width: 400px) {
+	body{
+		background-color: lightgrey;
+	}
+	.nav{
+		display: none;
+	}
+	.main{
+		margin-left: 0;
+	}
+	#gmap{
+	width: 350px;
+	display: block;
+	border: none;
+	height:35vh;
+	border-radius: 10px;
+	}
+}
+
+/*desktop style*/
+@media only screen and (min-width: 961px) {
+
+#page1{
+	height: 100vh;
+	padding-top: 50px;
+	}
+
+#page2{
+	height: 100vh;
+	padding-top: 50px;
+	}
+
+#page3{
+	height: 100vh;
+	padding-top: 50px;
+	}
+
+	#page4{
+	height: 100vh;
+	padding-top: 50px;
+	}
+
+	#page5{
+	height: 100vh;
+	padding-top: 50px;
+	}
+	#page6{
+	height: 100vh;
+	padding-top: 50px;
+	}
+	#page7{
+	height: 100vh;
+	padding-top: 50px;
+	}
+	#page8{
+	height: 100vh;
+	padding-top: 50px;
+	}
+	#page9{
+	height: 100vh;
+	padding-top: 50px;
+	}
+
+	.last-page{
+		height: 88vh;
+	}
+}
